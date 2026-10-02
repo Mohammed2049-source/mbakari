@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | MB Global Concept</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-bar-group">
+          <span><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</span>
+          <span><i class="fa-solid fa-envelope"></i> sales@mbglobalconcept.com</span>
+        </div>
+        <div class="top-bar-group">
+          <a href="#"><i class="fa-solid fa-truck-fast"></i> Track Order</a>
+          <a href="#"><i class="fa-solid fa-circle-user"></i> My Account</a>
+          <a href="#"><i class="fa-solid fa-globe"></i> EN/USD</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header" id="header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="MB Global Concept home page">
+          <div class="brand-mark">MB</div>
+          <div class="brand-copy">
+            <strong>MB Global</strong>
+            <span>Business Growth • Innovation</span>
+          </div>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="index.html#categories">Categories</a>
+          <a href="index.html#about">About</a>
+          <a href="checkout.html">Checkout</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <label class="search-bar" aria-label="Search products">
+            <input type="text" placeholder="Search products..." />
+            <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </label>
+          <button class="icon-btn" type="button" aria-label="Account"><i class="fa-solid fa-user"></i></button>
+          <button class="icon-btn" type="button" aria-label="Wishlist"><i class="fa-regular fa-heart"></i></button>
+          <button class="icon-btn cart-btn" id="cartBtn" type="button" aria-label="Shopping cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <section class="page-banner">
+      <div class="container page-banner-inner">
+        <div>
+          <div class="kicker light">Shop collection</div>
+          <h1>Browse all products</h1>
+        </div>
+        <div class="breadcrumb">Home / Shop</div>
+      </div>
+    </section>
+
+    <main class="shop-shell">
+      <div class="container">
+        <div class="shop-toolbar">
+          <div class="filter-list">
+            <button type="button" class="filter-btn active" data-filter="all">All</button>
+            <button type="button" class="filter-btn" data-filter="Electronics">Electronics</button>
+            <button type="button" class="filter-btn" data-filter="Fashion">Fashion</button>
+            <button type="button" class="filter-btn" data-filter="Home & Living">Home & Living</button>
+            <button type="button" class="filter-btn" data-filter="Sports">Sports</button>
+          </div>
+          <div class="kicker">8 products</div>
+        </div>
+
+        <div class="shop-grid" id="shopGrid"></div>
+      </div>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand footer-logo">
+            <div class="brand-mark">MB</div>
+            <div class="brand-copy">
+              <strong>MB Global</strong>
+              <span>Ideas • Innovation • Impact</span>
+            </div>
+          </a>
+          <p>Delivering premium solutions and trusted service to customers across the globe.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div>
+          <h3>Quick links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Customer care</h3>
+          <ul class="footer-links">
+            <li><a href="#">My account</a></li>
+            <li><a href="#">Track order</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul class="footer-links contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> 123 Innovation Avenue, Global City</li>
+            <li><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</li>
+            <li><i class="fa-solid fa-envelope"></i> sales@mbglobalconcept.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 MB Global Concept. All rights reserved.</p>
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-cc-amex"></i>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-sidebar" id="cartSidebar">
+      <div class="cart-header">
+        <h3><i class="fa-solid fa-bag-shopping"></i> Your cart <span id="cartItemCount">0</span></h3>
+        <button type="button" class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Total</span>
+          <strong id="cartTotal">$0.00</strong>
+        </div>
+        <a href="checkout.html" class="checkout-btn">Proceed to checkout</a>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toastMessage">Added to cart</span>
+    </div>
+
+    <button class="scroll-top" id="scrollTop" type="button" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

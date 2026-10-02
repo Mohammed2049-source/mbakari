@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MB Global Concept | Ideas | Innovation | Impact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="home">
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-bar-group">
+          <span><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</span>
+          <span><i class="fa-solid fa-envelope"></i> sales@mbglobalconcept.com</span>
+        </div>
+        <div class="top-bar-group">
+          <a href="#"><i class="fa-solid fa-truck-fast"></i> Track Order</a>
+          <a href="#"><i class="fa-solid fa-circle-user"></i> My Account</a>
+          <a href="#"><i class="fa-solid fa-globe"></i> EN/USD</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header" id="header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="MB Global Concept home page">
+          <div class="brand-mark">MB</div>
+          <div class="brand-copy">
+            <strong>MB Global</strong>
+            <span>Business Growth • Innovation</span>
+          </div>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="#categories">Categories</a>
+          <a href="#about">About</a>
+          <a href="checkout.html">Checkout</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <label class="search-bar" aria-label="Search products">
+            <input type="text" placeholder="Search products..." />
+            <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </label>
+          <button class="icon-btn" type="button" aria-label="Account"><i class="fa-solid fa-user"></i></button>
+          <button class="icon-btn" type="button" aria-label="Wishlist"><i class="fa-regular fa-heart"></i></button>
+          <button class="icon-btn cart-btn" id="cartBtn" type="button" aria-label="Shopping cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">New collection 2026</div>
+            <h1>Build your next big move with <span>MB Global</span></h1>
+            <p>Smart essentials, premium lifestyle products, and business-driven upgrades designed to help you grow faster and live better.</p>
+            <div class="hero-cta">
+              <a href="shop.html" class="btn btn-primary"><i class="fa-solid fa-bag-shopping"></i> Shop now</a>
+              <a href="#about" class="btn btn-secondary"><i class="fa-solid fa-circle-play"></i> Learn more</a>
+            </div>
+
+            <div class="hero-metrics">
+              <article>
+                <strong>50K+</strong>
+                <span>happy buyers</span>
+              </article>
+              <article>
+                <strong>200+</strong>
+                <span>curated products</span>
+              </article>
+              <article>
+                <strong>4.9/5</strong>
+                <span>customer rating</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="showcase-card main-card">
+              <span class="mini-tag">Global launches</span>
+              <div class="globe-icon"><i class="fa-solid fa-globe"></i></div>
+              <div class="stat-panel">
+                <span>Avg. savings</span>
+                <strong>42%</strong>
+              </div>
+            </div>
+
+            <div class="showcase-card floating-card">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <div>
+                <strong>+18.7%</strong>
+                <span>business growth</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section categories" id="categories">
+        <div class="container">
+          <div class="section-head">
+            <div class="kicker">Popular categories</div>
+            <h2>Shop by <span>category</span></h2>
+            <p>Explore our modern product categories built for home, work, and lifestyle.</p>
+          </div>
+
+          <div class="categories-grid">
+            <article class="category-card">
+              <div class="category-icon"><i class="fa-solid fa-laptop"></i></div>
+              <h3>Electronics</h3>
+              <p>High-performance options</p>
+            </article>
+
+            <article class="category-card">
+              <div class="category-icon"><i class="fa-solid fa-shirt"></i></div>
+              <h3>Fashion</h3>
+              <p>Luxury everyday essentials</p>
+            </article>
+
+            <article class="category-card">
+              <div class="category-icon"><i class="fa-solid fa-house"></i></div>
+              <h3>Home & Living</h3>
+              <p>Fresh upgrades for your space</p>
+            </article>
+
+            <article class="category-card">
+              <div class="category-icon"><i class="fa-solid fa-dumbbell"></i></div>
+              <h3>Sports</h3>
+              <p>Drive performance and wellness</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="shop">
+        <div class="container">
+          <div class="section-head">
+            <div class="kicker">Featured collection</div>
+            <h2>Trending <span>products</span></h2>
+            <p>Curated picks designed to make everyday purchases easier and more rewarding.</p>
+          </div>
+
+          <div class="products-grid" id="productsGrid"></div>
+        </div>
+      </section>
+
+      <section class="promo-banner">
+        <div class="container promo-content">
+          <div>
+            <div class="kicker light">Limited-time offer</div>
+            <h2>Flash sale <span>up to 50% off</span></h2>
+            <p>Premium upgrades for your home, work, and lifestyle. Shop before the clock runs out.</p>
+          </div>
+
+          <div class="promo-timer" aria-label="Flash sale countdown">
+            <div class="timer-box"><strong id="days">02</strong><span>Days</span></div>
+            <div class="timer-box"><strong id="hours">14</strong><span>Hours</span></div>
+            <div class="timer-box"><strong id="minutes">36</strong><span>Mins</span></div>
+            <div class="timer-box"><strong id="seconds">48</strong><span>Secs</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="about">
+        <div class="container">
+          <div class="section-head">
+            <div class="kicker">Why choose us</div>
+            <h2>Built for <span>smart shopping</span></h2>
+            <p>Everything we sell is chosen to balance quality, value, and long-term performance.</p>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+              <h3>Fast delivery</h3>
+              <p>Quick shipping updates and reliable service from checkout to doorstep.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Secure payment</h3>
+              <p>Trusted checkout experience with protection on every transaction.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-rotate-left"></i></div>
+              <h3>Easy returns</h3>
+              <p>Flexible support and simple policies for peace of mind on every purchase.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+              <h3>24/7 support</h3>
+              <p>Reach our team anytime for product help, order updates, or general support.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <div class="section-head">
+            <div class="kicker">Client feedback</div>
+            <h2>What our <span>customers</span> say</h2>
+            <p>Real stories from shoppers who trust MB Global Concept for everyday value.</p>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial-card">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>“The quality is outstanding and the customer experience feels premium from the first click to the final delivery.”</p>
+              <div class="testimonial-author">
+                <div class="avatar">JD</div>
+                <div>
+                  <h4>James Davidson</h4>
+                  <span>New York, USA</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>“The product selection is thoughtful and the shipping is always on time. It feels like a brand that truly understands customers.”</p>
+              <div class="testimonial-author">
+                <div class="avatar">SK</div>
+                <div>
+                  <h4>Sarah Kim</h4>
+                  <span>London, UK</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>“I’ve purchased tech and home items here and each one feels carefully selected, useful, and worth the investment.”</p>
+              <div class="testimonial-author">
+                <div class="avatar">OA</div>
+                <div>
+                  <h4>Olivia Adebayo</h4>
+                  <span>Lagos, Nigeria</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container news-wrap">
+          <h2>Stay in the loop with <span>exclusive offers</span></h2>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Enter your email address" aria-label="Your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand footer-logo">
+            <div class="brand-mark">MB</div>
+            <div class="brand-copy">
+              <strong>MB Global</strong>
+              <span>Ideas • Innovation • Impact</span>
+            </div>
+          </a>
+          <p>Delivering premium solutions and trusted service to customers across the globe.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Quick links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Customer care</h3>
+          <ul class="footer-links">
+            <li><a href="#">My account</a></li>
+            <li><a href="#">Track order</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul class="footer-links contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> 123 Innovation Avenue, Global City</li>
+            <li><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</li>
+            <li><i class="fa-solid fa-envelope"></i> sales@mbglobalconcept.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 MB Global Concept. All rights reserved.</p>
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-cc-amex"></i>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-sidebar" id="cartSidebar">
+      <div class="cart-header">
+        <h3><i class="fa-solid fa-bag-shopping"></i> Your cart <span id="cartItemCount">0</span></h3>
+        <button type="button" class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Total</span>
+          <strong id="cartTotal">$0.00</strong>
+        </div>
+        <a href="checkout.html" class="checkout-btn">Proceed to checkout</a>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toastMessage">Added to cart</span>
+    </div>
+
+    <button class="scroll-top" id="scrollTop" type="button" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
